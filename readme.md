@@ -5,6 +5,16 @@ This project is a wrapper around some OpenSSL commands. It should represent a to
 
 This is very useful if you want to have valid SSL certificates for your local development. You can simply serve your projects locally with the generated server certificates. In addition, you have to add the certificate of the root certificate authority to your machine aside the other already existing root certificates, so that the server certificates can be validated and trusted. 
 
+## Table of content
+
+- [Requirements](#requirements)
+- [Setup](#setup)
+- [Commands](#commands)
+    - [Root CA](#root-ca)
+    - [Signing CA](#signing-ca)
+    - [Server Certificate](#server-certificate)
+- [Information](#information)
+
 ## Requirements
 
 - Python 3
@@ -39,3 +49,20 @@ Execute the following command to generate a server certificate:
 ```bash
 python3 ~/Code/Certificate-Authority-Tools/create-server-certificate.py signing-ca-01 www.krumer.it
 ```
+
+## Information
+
+About Bits is a company based in South Tyrol, Italy. You can find more information about us on [our website](https://aboutbits.it).
+
+### Support
+
+For support, please contact [info@aboutbits.it](mailto:info@aboutbits.it).
+
+### Credits
+
+- [Alex Lanz](https://github.com/alexlanz)
+- [All Contributors](../../contributors)
+
+### License
+
+The MIT License (MIT). Please see [License File](license.md) for more information.
