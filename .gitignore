@@ -1,6 +1,9 @@
 # Basic
 .DS_Store
+
+# IDE
 /.vscode
+/.idea
 
 # Python
 __pycache__
