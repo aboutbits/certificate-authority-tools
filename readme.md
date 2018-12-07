@@ -26,7 +26,11 @@ This is very useful if you want to have valid SSL certificates for your local de
 2. Create a folder where you want to generate all the keys and certificates (ex. ~/Certificates)
 3. Go to the new folder where you want to generate all the keys and certificates and execute the following commands (ex. ~/Certificates)
 
-## Root CA
+## Commands
+
+Using the following commands you can generate root CAs, sigining CAs and server certificates.
+
+### Root CA
 
 Execute the following command to generate a root CA:
 
@@ -34,7 +38,7 @@ Execute the following command to generate a root CA:
 python3 ~/Code/Certificate-Authority-Tools/create-root-ca.py root-ca
 ```
 
-## Signing CA
+### Signing CA
 
 Execute the following command to generate a signing CA:
 
@@ -42,7 +46,7 @@ Execute the following command to generate a signing CA:
 python3 ~/Code/Certificate-Authority-Tools/create-signing-ca.py root-ca signing-ca-01
 ```
 
-## Server Certificate
+### Server Certificate
 
 Execute the following command to generate a server certificate:
 
