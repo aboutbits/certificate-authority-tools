@@ -22,7 +22,7 @@ This is very useful if you want to have valid SSL certificates for your local de
 
 ## Setup
 
-1. Clone the repository somewhere on your machine (ex. ~/Code/Certificate-Authority-Tools)
+1. Clone the repository somewhere on your machine (ex. ~/Projects/Certificate-Authority-Tools)
 2. Create a folder where you want to generate all the keys and certificates (ex. ~/Certificates)
 3. Go to the new folder where you want to generate all the keys and certificates and execute the following commands (ex. ~/Certificates)
 
@@ -35,7 +35,7 @@ Using the following commands you can generate root CAs, sigining CAs and server 
 Execute the following command to generate a root CA:
 
 ```bash
-python3 ~/Code/Certificate-Authority-Tools/create-root-ca.py root-ca
+python3 ~/Projects/Certificate-Authority-Tools/create-root-ca.py root-ca
 ```
 
 ### Signing CA
@@ -43,7 +43,7 @@ python3 ~/Code/Certificate-Authority-Tools/create-root-ca.py root-ca
 Execute the following command to generate a signing CA:
 
 ```bash
-python3 ~/Code/Certificate-Authority-Tools/create-signing-ca.py root-ca signing-ca-01
+python3 ~/Projects/Certificate-Authority-Tools/create-signing-ca.py root-ca signing-ca-01
 ```
 
 ### Server Certificate
@@ -51,7 +51,7 @@ python3 ~/Code/Certificate-Authority-Tools/create-signing-ca.py root-ca signing-
 Execute the following command to generate a server certificate:
 
 ```bash
-python3 ~/Code/Certificate-Authority-Tools/create-server-certificate.py signing-ca-01 www.krumer.it
+python3 ~/Projects/Certificate-Authority-Tools/create-server-certificate.py signing-ca-01 www.krumer.it
 ```
 
 ## Information
