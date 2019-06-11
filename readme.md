@@ -69,4 +69,4 @@ For support, please contact [info@aboutbits.it](mailto:info@aboutbits.it).
 
 ### License
 
-The MIT License (MIT). Please see [License File](license.md) for more information.
+The MIT License (MIT). Please see the [license file](license.md) for more information.
